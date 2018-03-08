@@ -1,4 +1,8 @@
 # Voice Conversion with Non-Parallel Data
+
+
+This is the code for [this](https://youtu.be/6KHSPiYlZ-U) video on Youtube by Siraj Raval. 
+
 ## Subtitle: Speaking like Kate Winslet
 >* This is the first draft.
 >* Authors: Dabi Ahn(andabi412@gmail.com), [Kyubyong Park](https://github.com/Kyubyong)(kbpark.linguist@gmail.com)
@@ -103,3 +107,7 @@ Net2 contains Net1 as a sub-network.
 ## References
 * ["Phonetic posteriorgrams for many-to-one voice conversion without parallel data training"](https://www.researchgate.net/publication/307434911_Phonetic_posteriorgrams_for_many-to-one_voice_conversion_without_parallel_data_training), 2016 IEEE International Conference on Multimedia and Expo (ICME)
 * ["TACOTRON: TOWARDS END-TO-END SPEECH SYNTHESIS"](https://arxiv.org/abs/1703.10135), Submitted to Interspeech 2017
+
+# Credits
+
+Credits for this code go to [andabi](https://github.com/andabi/deep-voice-conversion). I've merely created a wrapper to get people started. 
