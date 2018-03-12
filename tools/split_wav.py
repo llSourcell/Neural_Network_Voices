@@ -42,7 +42,7 @@ for filepath in glob.glob('{}/*.wav'.format(src_path)):
     # min_len_split = min(min_len_split, min(map(lambda w: len(w), split_wavs)))
 
     split_wavs = filter(lambda w: len(w) >= min_limit_len, split_wavs)
-    map(lambda (i, w): write(w, sr, '{}/{}_{}.wav'.format(target_path, filename, i)), enumerate(split_wavs))
+    map(lambda i, w: write(w, sr, '{}/{}_{}.wav'.format(target_path, filename, i)), enumerate(split_wavs))
 
 
 # print('num_files: {}, num_files_split: {}'.format(num_files, num_files_split))
